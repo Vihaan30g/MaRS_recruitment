@@ -1,8 +1,8 @@
 ###**NOTE**
-The solutions of all the attempted questions are uploaded in this repository as separate files.
-Hard dose Q3 is in .pdf format.
-command screenshots and other images as asked are in "images" directory.
-These are the problems solved by me : Light dose- 1,2 ; Medium Dose- 1,2,3,4,5 ; Hard dose- 1(1st part), 3
+The solutions of all the attempted questions are uploaded in this repository as separate files.  
+Hard dose Q3 is in .pdf format.  
+command screenshots and other images as asked are in "images" directory.  
+These are the problems solved by me : Light dose- 1,2 ; Medium Dose- 1,2,3,4,5 ; Hard dose- 1(1st part), 3  
 
 
 ## **Overall Experience**  

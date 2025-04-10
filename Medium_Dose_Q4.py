@@ -3,8 +3,8 @@
 import numpy as np
 
 # to extract input data from a text file.
-def read_data_from_file(filename):
-    input_data =  np.genfromtxt(filename, delimiter=',', dtype=int)
+def read_data_from_file(log):
+    input_data =  np.genfromtxt(log, delimiter=',', dtype=int)
     return input_data
 
 

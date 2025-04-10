@@ -29,7 +29,7 @@ def create_map(obstacles):   # obstacles is a matrix
 
 
 # Extracting obstacle info from given txt file
-obstacles = np.genfromtxt('file1.txt',delimiter=',')
+obstacles = np.genfromtxt('file1.txt',delimiter=' ')
 
 
 # Processing input to get a simple array of coordinates of obstacles(x,y)
@@ -37,7 +37,7 @@ obstacles = obstacles.reshape(-1,2)    # Changes matrix shape. { -1 => whatever 
 for i in range(0,len(obstacles),2):    
     obstacles[i,0] -= obstacles[i+1,0]
     obstacles[i,1] -= obstacles[i+1,1]
-obstacles = np.delete(obstacles, np.arange(1,len(obstacles),2), axis=0)   # removing unwanted part
+obstacles = np.delete(obstacles, np.arange(1,len(obstacles)+1,2), axis=0)   # removing unwanted part
     
 
 # Sample input :  obstacles = np.array( [[-2,-3], [-4,0], [1,6], [5,5], [6,8], [3,2], [7,8]] )

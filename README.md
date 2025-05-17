@@ -1,4 +1,4 @@
-###**NOTE**  
+### **NOTE**  
 The solutions of all the attempted questions are uploaded in this repository as separate files.  
 Hard dose Q3 is in .pdf format.  
 command screenshots and other images as asked are in "images" directory.  
